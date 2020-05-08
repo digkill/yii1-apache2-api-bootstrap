@@ -1,0 +1,15 @@
+Test task
+=============================
+
+
+INSTALLATION
+------------
+
+1. docker-compose build
+2. docker-compose up -d
+3. php yiic.php migrate
+4. php yiic.php password --password=password
+5. php yiic.php import
+6. Create User in DB
+7. Log in user/password
+8. Api /api/log/list?{params}

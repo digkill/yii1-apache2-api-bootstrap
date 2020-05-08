@@ -1,0 +1,7 @@
+/.idea/
+/docker/mariadb/*
+!/docker/mariadb/.gitkeeper
+/public/assets/*
+!/public/assets/.gitkeeper
+/docker/httpd/logs/*
+!/docker/httpd/logs/.gitkeeper

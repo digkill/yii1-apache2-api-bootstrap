@@ -1,0 +1,36 @@
+error
+[Fri May 08 11:08:57.083498 2020] [mpm_event:notice] [pid 1:tid 139824751228032] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 08 11:08:57.084775 2020] [core:notice] [pid 1:tid 139824751228032] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri May 08 11:09:02.102354 2020] [proxy:error] [pid 8:tid 139824631621376] (111)Connection refused: AH00957: FCGI: attempt to connect to 192.168.96.3:9000 (*) failed
+[Fri May 08 11:09:02.103227 2020] [proxy_fcgi:error] [pid 8:tid 139824631621376] [client 192.168.96.6:39856] AH01079: failed to make connection to backend: php
+[Fri May 08 11:10:36.643982 2020] [mpm_event:notice] [pid 1:tid 139824751228032] AH00492: caught SIGWINCH, shutting down gracefully
+[Fri May 08 11:10:48.980517 2020] [mpm_event:notice] [pid 1:tid 140277884605568] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 08 11:10:48.983413 2020] [core:notice] [pid 1:tid 140277884605568] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri May 08 11:10:49.796685 2020] [proxy:error] [pid 9:tid 140277733885696] (111)Connection refused: AH00957: FCGI: attempt to connect to 192.168.112.3:9000 (*) failed
+[Fri May 08 11:10:49.797285 2020] [proxy_fcgi:error] [pid 9:tid 140277733885696] [client 192.168.112.6:34820] AH01079: failed to make connection to backend: php
+[Fri May 08 11:10:51.340766 2020] [proxy:error] [pid 8:tid 140277725492992] (111)Connection refused: AH00957: FCGI: attempt to connect to 192.168.112.3:9000 (*) failed
+[Fri May 08 11:10:51.341597 2020] [proxy_fcgi:error] [pid 8:tid 140277725492992] [client 192.168.112.6:34828] AH01079: failed to make connection to backend: php
+[Fri May 08 11:10:52.699046 2020] [proxy:error] [pid 8:tid 140277733885696] (111)Connection refused: AH00957: FCGI: attempt to connect to 192.168.112.3:9000 (*) failed
+[Fri May 08 11:10:52.699807 2020] [proxy_fcgi:error] [pid 8:tid 140277733885696] [client 192.168.112.6:34832] AH01079: failed to make connection to backend: php
+[Fri May 08 11:12:15.452235 2020] [mpm_event:notice] [pid 1:tid 140277884605568] AH00492: caught SIGWINCH, shutting down gracefully
+[Fri May 08 11:12:22.654266 2020] [mpm_event:notice] [pid 1:tid 140572804191360] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 08 11:12:22.655108 2020] [core:notice] [pid 1:tid 140572804191360] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri May 08 11:12:55.552819 2020] [proxy:error] [pid 8:tid 140572760479488] (111)Connection refused: AH00957: FCGI: attempt to connect to 192.168.128.3:9000 (*) failed
+[Fri May 08 11:12:55.553760 2020] [proxy_fcgi:error] [pid 8:tid 140572760479488] [client 192.168.128.6:55750] AH01079: failed to make connection to backend: php
+[Fri May 08 11:12:56.644630 2020] [proxy:error] [pid 8:tid 140572752078592] (111)Connection refused: AH00957: FCGI: attempt to connect to 192.168.128.3:9000 (*) failed
+[Fri May 08 11:12:56.645108 2020] [proxy_fcgi:error] [pid 8:tid 140572752078592] [client 192.168.128.6:55754] AH01079: failed to make connection to backend: php
+[Fri May 08 11:16:50.066733 2020] [mpm_event:notice] [pid 1:tid 140572804191360] AH00492: caught SIGWINCH, shutting down gracefully
+[Fri May 08 11:17:00.031169 2020] [mpm_event:notice] [pid 1:tid 139849670296704] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 08 11:17:00.032098 2020] [core:notice] [pid 1:tid 139849670296704] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri May 08 12:06:09.556896 2020] [core:alert] [pid 91:tid 139849651787520] [client 192.168.144.6:44216] /var/www/html/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri May 08 12:06:23.810921 2020] [core:alert] [pid 91:tid 139849570973440] [client 192.168.144.6:44220] /var/www/html/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri May 08 12:06:36.252437 2020] [core:alert] [pid 91:tid 139849660188416] [client 192.168.144.6:44228] /var/www/html/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri May 08 12:06:51.725692 2020] [core:alert] [pid 9:tid 139849503831808] [client 192.168.144.6:44234] /var/www/html/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri May 08 12:06:55.778744 2020] [core:alert] [pid 91:tid 139849562580736] [client 192.168.144.6:44236] /var/www/html/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri May 08 12:08:07.792700 2020] [mpm_event:notice] [pid 1:tid 139849670296704] AH00492: caught SIGWINCH, shutting down gracefully
+[Fri May 08 12:08:17.161683 2020] [mpm_event:notice] [pid 1:tid 140528454382720] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 08 12:08:17.163963 2020] [core:notice] [pid 1:tid 140528454382720] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri May 08 13:36:49.481579 2020] [proxy_fcgi:error] [pid 91:tid 140527907370752] [client 192.168.160.6:37556] AH01071: Got error 'PHP message: PHP Parse error:  syntax error, unexpected ',', expecting ';' in /var/www/html/src/config/main.php on line 80'
+[Fri May 08 13:36:50.885434 2020] [proxy_fcgi:error] [pid 9:tid 140528159020800] [client 192.168.160.6:37560] AH01071: Got error 'PHP message: PHP Parse error:  syntax error, unexpected ',', expecting ';' in /var/www/html/src/config/main.php on line 80'
+[Fri May 08 21:19:19.190103 2020] [proxy_fcgi:error] [pid 91:tid 140527873799936] [client 192.168.160.6:43962] AH01071: Got error 'PHP message: PHP Fatal error:  Cannot use empty array elements in arrays in /var/www/html/src/controllers/LogController.php on line 24', referer: http://logger.loc/index.php
+[Fri May 08 21:19:20.846291 2020] [proxy_fcgi:error] [pid 91:tid 140527865407232] [client 192.168.160.6:43968] AH01071: Got error 'PHP message: PHP Fatal error:  Cannot use empty array elements in arrays in /var/www/html/src/controllers/LogController.php on line 24', referer: http://logger.loc/index.php
